@@ -1,0 +1,17 @@
+This is my attempt of Analytics Vidhya's hackathon problem on HR Analytics
+
+
+They have provided multiple attributes around Employee's past and current performance along with demographics. Now, The task is to predict whether a potential promotee at checkpoint in the test set will be promoted or not after the evaluation process.
+
+
+In this project I have built a model that predict employee is eligible for promotion or not.
+
+I have make use of 4 models i.e Logistic regression, Decision Tree Classification, Random Forest Classification and Artificial Neural Network.
+
+I verified the accuracy by calculating F1 score of the predicted value.
+
+After checking the F1 score, I found out that ANN gave the best result with F1 Score of 0.498322147651007.
+
+f1 score on logistic regression= 0.4026079869600652
+f1 score on Decision Tree Classification= 0.45588235294117657
+f1 score on Random Forest Classification= 0.4727564102564102
